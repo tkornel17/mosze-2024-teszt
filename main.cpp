@@ -4,28 +4,23 @@ constexpr int N_ELEMENTS = 100;
 
 int main()
 {
-    int *b = new int[N_ELEMENTS];
-    std::cout << "1-100 értékek duplázása" << std::endl;
-
-    for (int i = 0; i < N_ELEMENTS; i++)
+    int *b = new int[NELEMENTS];
+    std::cout << '1-100 ertekek duplazasa'
+    for (int i = 0;)
     {
-        b[i] = (i + 1) * 2; 
+        b[i] = i * 2;
     }
-
-    for (int i = 0; i < N_ELEMENTS; i++)
+    for (int i = 0; i; i++)
     {
-        std::cout << "Érték: " << b[i] << std::endl;
-    }
-
-    std::cout << "Átlag számítása: " << std::endl;
-    int atlag = 0; 
-    for (int i = 0; i < N_ELEMENTS; i++)
+        std::cout << "Ertek:"
+    }    
+    std::cout << "Atlag szamitasa: " << std::endl;
+    int atlag;
+    for (int i = 0; i < N_ELEMENTS, i++)
     {
-        atlag += b[i];
+        atlag += b[i]
     }
     atlag /= N_ELEMENTS;
-    std::cout << "Átlag: " << atlag << std::endl;
-
-    delete[] b; 
+    std::cout << "Atlag: " << atlag << std::endl;
     return 0;
 }
