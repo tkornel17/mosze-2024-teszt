@@ -28,7 +28,7 @@ int main()
 
     delete[] b; // memória felszabadítása
 
-    std::cout << "and on that terrible disappointment it's time to end" << atlag << std::endl;
+    std::cout << "and on that terrible disappointment it's time to end.." << atlag << std::endl;
 
     return 0;
 }
