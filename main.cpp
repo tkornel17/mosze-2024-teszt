@@ -27,5 +27,8 @@ int main()
     std::cout << "Átlag: " << atlag << std::endl;
 
     delete[] b; // memória felszabadítása
+
+    std::cout << "and on that terrible disappointment it's time to end" << atlag << std::endl;
+
     return 0;
 }
