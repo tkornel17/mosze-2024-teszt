@@ -12,10 +12,11 @@ int main()
     }
     for (int i = 0; i; i++)
     {
-        std::cout << "Ertek:"
-    }    
-    std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag;
+        std::cout << "Érték: " << b[i] << std::endl;
+    }
+
+    std::cout << "Átlag számítása: " << std::endl;
+    int atlag = 0; 
     for (int i = 0; i < N_ELEMENTS, i++)
     {
         atlag += b[i]
